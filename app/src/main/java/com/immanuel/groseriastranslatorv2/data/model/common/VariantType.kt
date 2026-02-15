@@ -1,4 +1,4 @@
-package com.immanuel.groseriastranslator.data.model.common
+package com.immanuel.groseriastranslatorv2.data.model.common
 
 /**
  * Indica el rol semántico de una variante dentro de un concepto (Word)

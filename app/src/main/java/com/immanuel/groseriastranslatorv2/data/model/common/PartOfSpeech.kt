@@ -1,4 +1,4 @@
-package com.immanuel.groseriastranslator.data.model.common
+package com.immanuel.groseriastranslatorv2.data.model.common
 
 enum class PartOfSpeech {
     NOUN,

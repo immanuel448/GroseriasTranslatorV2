@@ -21,7 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "GroseriasTranslatorV2"
 include(":app")
-<<<<<<< HEAD
- 
-=======
->>>>>>> f350b2c (creación del proyecto)
+
