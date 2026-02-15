@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
 =======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7">
 >>>>>>> f350b2c (creación del proyecto)
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+>>>>>>> 2bc00b2 (se crea la estructura inicial)
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
