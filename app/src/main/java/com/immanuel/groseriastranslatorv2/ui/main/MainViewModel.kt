@@ -56,4 +56,16 @@ class MainViewModel : ViewModel() {
         }
     }
 
+    fun setLanguageFrom(languageCode: String) {
+        _languageFrom.value = languageCode
+
+        // Cargar palabras del idioma seleccionado
+        _words.value = repository.getWords(languageCode)
+
+        // Limpiar selección y traducciones para evitar inconsistencias
+        _selectedWord.value = null
+        _translations.value = emptyList()
+    }
+
+
 }
