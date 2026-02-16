@@ -46,4 +46,14 @@ class MainViewModel : ViewModel() {
         _selectedWord.value = null
         _translations.value = emptyList()
     }
+
+    fun setLanguageTo(languageCode: String) {
+        _languageTo.value = languageCode
+
+        _selectedWord.value?.let { word ->
+            _translations.value =
+                repository.getTranslations(word, languageCode)
+        }
+    }
+
 }
